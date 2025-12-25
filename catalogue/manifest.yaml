@@ -35,7 +35,7 @@ spec:
         image: bsainitin/catalogue:v1
         imagePullPolicy: Always
         envFrom:
-        - ConfigMapRef:
+        - configMapRef:
             name: catalogue
         # Just For Information, Does not open 8080 port
         ports:
